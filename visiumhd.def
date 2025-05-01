@@ -21,7 +21,8 @@ From: ubuntu:22.04
     pip install \
         jupyterlab ipykernel notebook \
         scanpy squidpy napari[all] \
-        spatialdata spatialdata[extra] spatialdata[torch]
+        spatialdata spatialdata[extra] spatialdata[torch] \
+        igraph leidenalg
 
     # Register Jupyter kernel inside venv
     python -m ipykernel install --prefix=/opt/venv --name=visiumhd-env
